@@ -1,4 +1,4 @@
-\# Medical Report Analyzer
+# Medical Report Analyzer
 
 
 
@@ -10,31 +10,31 @@ Medical Report Analyzer is a simple AI-ready backend that processes medical repo
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
-\### Core Processing Tools
+### Core Processing Tools
 
 
 
-\- 📄 \*\*Upload Files:\*\* Supports `.pdf`, `.docx`, `.txt`, and common image formats.
+- 📄 \*\*Upload Files:\*\* Supports `.pdf`, `.docx`, `.txt`, and common image formats.
 
-\- 🧠 \*\*Text Extraction:\*\* Automatically extract readable text from PDF and Word documents.
+- 🧠 \*\*Text Extraction:\*\* Automatically extract readable text from PDF and Word documents.
 
-\- 🖼️ \*\*Image Handling:\*\* Convert uploaded images to Base64-encoded PNG data.
+- 🖼️ \*\*Image Handling:\*\* Convert uploaded images to Base64-encoded PNG data.
 
-\- 💾 \*\*Single JSON Store:\*\* All processed content saved to one `data.json` file.
-
-
-
-\### AI-Ready Design
+- 💾 \*\*Single JSON Store:\*\* All processed content saved to one `data.json` file.
 
 
 
-\- 🔌 \*\*Simple API:\*\* Easy to connect to any AI model for generating insights.
+### AI-Ready Design
 
-\- 📂 \*\*Unified Storage:\*\* All uploads and processed outputs in a single local file for portability.
+
+
+- 🔌 \*\*Simple API:\*\* Easy to connect to any AI model for generating insights.
+
+- 📂 \*\*Unified Storage:\*\* All uploads and processed outputs in a single local file for portability.
 
 
 
@@ -42,7 +42,7 @@ Medical Report Analyzer is a simple AI-ready backend that processes medical repo
 
 
 
-\## 🛠 Tech Stack
+## 🛠 Tech Stack
 
 
 
@@ -60,7 +60,7 @@ Medical Report Analyzer is a simple AI-ready backend that processes medical repo
 
 
 
-\## 🚀 Local Setup Guide (All-in-One)
+## 🚀 Local Setup Guide (All-in-One)
 
 
 
@@ -68,7 +68,7 @@ Follow these steps to clone, set up, and run the backend locally.
 
 
 
-\### 1. Clone the Repository
+### 1. Clone the Repository
 
 
 
@@ -80,12 +80,12 @@ cd medical-report-analyzer
 
 
 
-\### 2. Create Virtual Environment \& Install Dependencies
+### 2. Create Virtual Environment \& Install Dependencies
 
 
 ```bash
 
-\# Windows
+# Windows
 
 python -m venv venv
 
@@ -93,7 +93,7 @@ venv\\Scripts\\activate
 
 
 
-\# macOS/Linux
+# macOS/Linux
 
 python3 -m venv venv
 
@@ -101,7 +101,7 @@ source venv/bin/activate
 
 
 
-\# Install requirements
+# Install requirements
 
 pip install -r requirements.txt
 
@@ -114,7 +114,7 @@ OPENAI\_API\_KEY=sk-your-api-key
 
 
 
-\### 4. Run the Backend
+### 4. Run the Backend
 
 
 
