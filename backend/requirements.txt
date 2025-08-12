@@ -1,0 +1,12 @@
+# Web
+flask
+flask-cors
+python-dotenv
+
+# LLM
+openai
+
+# Ingestion
+PyMuPDF
+python-docx
+Pillow
