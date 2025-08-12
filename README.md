@@ -47,11 +47,8 @@ Medical Report Analyzer is a simple AI-ready backend that processes medical repo
 
 
 | Layer     | Tech                                                        |
-
 | --------- | ----------------------------------------------------------- |
-
 | Backend   | Python, Flask, Flask-CORS, OpenAI API (optional), PyMuPDF, Pillow |
-
 | Storage   | Local JSON (`data.json`)                                    |
 
 
