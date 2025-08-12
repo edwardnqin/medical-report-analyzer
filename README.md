@@ -70,8 +70,6 @@ Follow these steps to clone, set up, and run the backend locally.
 
 ### 1. Clone the Repository
 
-
-
 ```bash
 
 git clone https://github.com/yourusername/medical-report-analyzer.git
@@ -82,7 +80,6 @@ cd medical-report-analyzer
 
 ### 2. Create Virtual Environment \& Install Dependencies
 
-
 ```bash
 
 # Windows
@@ -92,13 +89,11 @@ python -m venv venv
 venv\\Scripts\\activate
 
 
-
 # macOS/Linux
 
 python3 -m venv venv
 
 source venv/bin/activate
-
 
 
 # Install requirements
@@ -113,10 +108,7 @@ pip install -r requirements.txt
 OPENAI\_API\_KEY=sk-your-api-key
 
 ```
-
 ### 4. Run the Backend
-
-
 
 ```bash
 
