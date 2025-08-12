@@ -78,7 +78,7 @@ git clone https://github.com/yourusername/medical-report-analyzer.git
 
 cd medical-report-analyzer
 
-
+```
 
 ### 2. Create Virtual Environment \& Install Dependencies
 
@@ -104,7 +104,7 @@ source venv/bin/activate
 # Install requirements
 
 pip install -r requirements.txt
-
+```
 ### 3. Set Environment Variables
 
 ```bash
@@ -112,7 +112,7 @@ pip install -r requirements.txt
 
 OPENAI\_API\_KEY=sk-your-api-key
 
-
+```
 
 ### 4. Run the Backend
 
@@ -122,3 +122,4 @@ OPENAI\_API\_KEY=sk-your-api-key
 
 python backend/app.py
 
+```
